@@ -1,0 +1,184 @@
+
+
+appimage vs snap vs remote host vs cli vs rpm vs deb vs 
+
+sudo pacman -S mlocate   lsof 
+# kept getting 
+error: GPGME error: No data
+error: GPGME error: No data
+error: database 'extra' is not valid (invalid or corrupted database (PGP signature))
+error: database 'multilib' is not valid (invalid or corrupted database (PGP signature))
+
+INstalling visual studio code was a pain 
+
+sudo pacman -Syu --debug>pacman-Syudebug.log 
+
+#to install fsearch, Google Chrome below is a pre-requisite 
+# fsearch needs fakeroot
+#######################
+ 
+sudo pacman -S --needed base-devel 
+
+#Packages (17) autoconf-2.72-1  automake-1.18.1-1  bison-3.8.2-8  debugedit-5.2-1  fakeroot-1.37.1.2-1  flex-2.6.4-5  gc-8.2.8-2
+#              gcc-15.1.1+r500+gb1b8d8ce3eea-1  gcc-libs-15.1.1+r500+gb1b8d8ce3eea-1  guile-3.0.10-1  libisl-0.27-1  libmpc-1.3.1-2
+      #        m4-1.4.20-1  make-4.4.1-2  patch-2.8-1  pkgconf-2.5.1-1  base-devel-1-3
+
+#Total Download Size:   102.79 MiB
+#Total Installed Size:  429.03 MiB
+#Net Upgrade Size:      280.48 MiB
+
+
+Installing node 22 was another head ache
+
+___________________
+# BEGINS HERE 
+sudo pacman -S vim jq yay
+
+curl -O https://download.sublimetext.com/sublimehq-pub.gpg && sudo pacman-key --add sublimehq-pub.gpg && sudo pacman-key --lsign-key 8A8F901A && rm sublimehq-pub.gpg
+
+echo -e "\n[sublime-text]\nServer = https://download.sublimetext.com/arch/stable/x86_64" | sudo tee -a /etc/pacman.conf
+
+sudo pacman -S sublime-text
+
+sudo pacman -S wine
+wine --version
+
+# Isolate each Windows App with unique wineprefix
+mkdir ~/wine-apps
+cd ~/wine-apps
+WINEPREFIX=~/wine_irfanview winecfg
+# download irfanview separately and place it in Downloads folder
+
+mv ~/Downloads/iview*.exe .
+WINEPREFIX=~/wine_irfanview iview472_x64_setup.exe
+WINEPREFIX=~/wine_irfanview iview472_plugins_x64_setup.exe
+# DO I need KDENLIVE ?
+# Do I need OBSLIve to stream & record 
+sudo pacman -S docker
+yay -S gitkraken
+sudo pacman -S bleachbit
+# dust for ncdu
+# aria2 to download all
+# zoxide to jump to favourite folders
+# asciinema lets you record terminal sessions and share them on the web.
+# LZ4 is lossless compression algorithm, providing compression speed > 500 MB/s per core (>0.15 Bytes/cycle). It features an extremely fast decoder, with speed in multiple GB/s per core (~1 Byte/cycle). A high compression derivative, called LZ4_HC, is available, trading customizable CPU time for compression ratio.
+#bat, a better cat
+#inxi
+# mpv command line music playe
+# pandoc, markup cnvertor 
+# ssh 
+# cht.sh for cheatsheets 
+# onefetch
+# neofetch
+# clamav .. usage clamscan rmarkdown; detects trojan, malware, virus
+# tlp
+# ddrescue for data recovery
+# rclone ... manage files on Cloud storage
+# restic backup 
+# just is a handy way to save and run project-specific commands.
+# need rust ripgrep recursively searches directories for a regex pattern while respecting your gitignore.
+# Firejail is a SUID program that reduces the risk of security breaches by restricting the running environment of untrusted applications using Linux namespaces and seccomp-bpf. It allows a process and all its descendants to have their own private view of the globally shared kernel resources, such as the network stack, process table, mount table.
+# McFly replaces your default ctrl-r shell history search with an intelligent search engine that takes into account your working directory and the context of recently executed commands. McFly’s suggestions are prioritized in real time with a small neural network.
+# localtunnel exposes your localhost to the world for easy testing and sharing! No need to mess with DNS or deploy just to have others test out your changes.
+# Nmap (“Network Mapper”) is a utility for network discovery and security auditing. Many systems and network administrators also find it useful for tasks such as network inventory, managing service upgrade schedules, and monitoring host or service uptime.
+#
+# GoTTY is a simple command line tool that turns your CLI tools into web applications.
+#
+# HTTPie is an HTTP client. Its goal is to make CLI interaction with web services as human-friendly as possible. HTTPie is designed for testing, debugging, and generally interacting with APIs & HTTP servers.    
+# like httpie put httbin.org/status/418
+#
+#imagemagick convert
+# exa instead of ls
+# rsync
+# usison for bidirectional  file syn tool
+# et is a simple command-line snippet manager.
+
+#We often forget useful commands, particularly ones with lots of flags. We could create aliases or use the history command combined with grep to alleviate this issue. But pet arguably offers a slicker way, as it lets us search the snippets to quickly find what we need.
+# tldr
+# Qalculate! is a multi-purpose cross-platform desktop calculator. It is simple to use but provides power and versatility normally reserved for complicated math packages, as well as useful tools for everyday needs (such as currency conversion and percent calculation, unit calculations and conversion, physical constants, symbolic calculations (including integrals and equations), arbitrary precision, uncertainty propagation, interval arithmetic, plotting,
+# mycli
+# Streamlink is a utility which pipes video streams from various services into a video player, such as VLC. The main purpose of Streamlink is to avoid resource-heavy and unoptimized websites, while still allowing the user to enjoy various streamed content.
+# ttygif converts a ttyrec file into gif files. It’s a stripped down version of ttyplay that screenshots every frame
+# sox audio conversion
+# fig  Fig pops up subcommands, options, and contextually relevant arguments in your existing terminal
+# hexyl is a simple hex viewer for the terminal. It uses a colored output to distinguish different categories of bytes (NULL bytes, printable ASCII characters, ASCII whitespace characters, other ASCII characters and non-ASCII)
+#
+# insect is a high precision scientific calculator with full support for physical units.
+# Taskwarrior manages your TODO list from the command line. It is flexible, fast, and unobtrusive
+# yt-dlp
+# needs node ... svgo optimize SVG
+# watson time tracker
+# dog dns client
+#
+
+sudo pacman -Syu                                                                                                      1 ✘ 
+error: GPGME error: No data
+error: GPGME error: No data
+:: Synchronizing package databases...
+ core is up to date
+ extra                                                  8.5 MiB  1998 KiB/s 00:04 [##############################################] 100%
+ multilib                                             147.3 KiB   137 KiB/s 00:01 [##############################################] 100%
+error: GPGME error: No data
+error: GPGME error: No data
+error: failed to synchronize all databases (invalid or corrupted database (PGP signature))
+    ~  sudo pacman -Syy                                                                                               1 ✘  5s  
+error: GPGME error: No data
+error: GPGME error: No data
+:: Synchronizing package databases...
+ core                                                 147.8 KiB   102 KiB/s 00:01 [##############################################] 100%
+ extra                                                  8.5 MiB  2.42 MiB/s 00:04 [##############################################] 100%
+ multilib                                             147.3 KiB  89.4 KiB/s 00:02 [##############################################] 100%
+error: GPGME error: No data
+error: GPGME error: No data
+error: failed to synchronize all databases (invalid or corrupted database (PGP signature))
+
+Comment all  lines in vim
+
+    First, go to the first line you want to comment, press CtrlV. This will put the editor in the VISUAL BLOCK mode.
+    Then using the arrow key and select until the last line
+    Now press ShiftI, which will put the editor in INSERT mode and then press #. This will add a hash to the first line.
+    Then press Esc (give it a second), and it will insert a # character on all other selected lines.
+
+For the stripped-down version of vim shipped with debian/ubuntu by default, type : s/^/# in the third step instead (any remaining highlighting of the first character of each line can be removed with :nohl). 
+
+For the stripped-down version of vim shipped with debian/ubuntu by default, type : s/^/# in the third step instead (any remaining highlighting of the first character of each line can be removed with :nohl).
+
+
+Installing Visual Studio Code on Manjaro
+
+There are three primary methods for installing VS Code on Manjaro Linux. We will cover each method in detail below.
+Method 1: Installing via Official Repositories
+
+The quickest and easiest way to install Visual Studio Code on Manjaro is by using the pacman package manager to pull the code editor from the Community repository. Here are the step-by-step instructions:
+
+    Open a terminal window on your Manjaro desktop.
+    Refresh your system‘s package database to ensure you have the latest package listings:
+
+sudo pacman -Syyu
+
+    Install the base developer toolkit packages required for compilation:
+
+sudo pacman -S --needed git base-devel 
+
+    Clone the AUR repository for the Visual Studio Code package:
+
+git clone https://aur.archlinux.org/visual-studio-code-bin.git
+
+    Navigate into the newly downloaded directory:
+
+cd visual-studio-code-bin
+
+    Use makepkg to compile the VS Code program and dependencies from source before installing the package:
+
+makepkg -si
+
+The main benefits of using pacman and the official repositories to install VS Code are speed and simplicity. However, the drawback is the software versions tend to lag behind the latest from the publisher by a few minor revisions.
+
+
+********** FIX CORRUPTED PACMAN Cache 
+
+sudo rm -r /etc/pacman.d/gnupg
+sudo pacman-key --init
+sudo pacman-key --populate
+
+
