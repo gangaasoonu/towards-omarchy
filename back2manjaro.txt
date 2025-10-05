@@ -1,0 +1,13 @@
+switching off WiFi is key, I some how am unable to use the TUI in Omarchy...
+
+swicthing between kannada & english input is tuff .. locale-gen isn't just happening. ven with Ibus installed, I can't Kannada input in fcitx5
+
+It all takes 4-5 seconds longer on Omarchy
+Login Prompt
+post password typing, Screen to load
+Terminal ...
+Chromium to load
+
+& Hyprland, .... I've been used to XFCE
+
+So, for now, not yet ready for Omarchy.
