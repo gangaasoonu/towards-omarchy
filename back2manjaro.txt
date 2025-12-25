@@ -11,3 +11,20 @@ Chromium to load
 & Hyprland, .... I've been used to XFCE
 
 So, for now, not yet ready for Omarchy.
+
+Update: Oct 12 2025
+Manjaro was showing signs of slow-down for some vague reasons.
+Installing ibus-m17n or baraha style kannada typing is such a Slog on Manjaro (or any Arch system) Tried fcitx5 and ibus .... got kannada typing enabled, but the bad taste it left, made me yearn for simpler days of sudo apt install ibus-m17n
+
+Was wondering, if Debian 13 is right?
+Wasn't very brave... 
+I need speedy response from computer and I have Intel i3 processor.
+GNome just sucks life-blood with it's slow response and my experience with Cinnamon on Manjaro was extremely painful. The titlebars wouldn't show up and mouse-response was slower than girish kasaravlli movies.
+
+Installed Xubuntu to get going for some time, but kept checking out sage videos for Debian on Youtube.
+
+Update: Dec 12, 2025
+Found Debian 13 is much much better/easier compared to 8 and Debian 11
+Though, found some issues while installing and then when using, Sending feedback to Debian Maintainers....
+
+So, for now Debian it is for me...
