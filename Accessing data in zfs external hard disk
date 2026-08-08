@@ -1,0 +1,6 @@
+i had Ubuntu installed on a Spinning hard disk with zfs file system.  i had to remove it from laptop and put a new hardb disk into laptop, moved to all non Ubuntu distributions 
+I've been struggling to access files in that zfs hard disk since then
+Arch based and Ubuntu based distributions have simply not helping to access. 
+zfs pool is not helping.
+even Xubuntu and Lubuntu are not allowing to access Files. 
+so, I'm like forced to move back into the bloated and the bad Ubuntu 
